@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+#hero{
+  /* border: 10px solid red; */
+  width: 60%;
+}
