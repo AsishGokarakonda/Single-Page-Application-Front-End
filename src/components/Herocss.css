@@ -2,16 +2,122 @@
     width: 208px;
     height: 208px;
 }
+
+
 .herocontainer{
+    width: 100%;
     border: 2px solid red;
-    display: inline-block;
-    /* background-color: gray; */
-    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    /* background: transparent;
+    position: absolute; */
+    height: auto;
+    /* left: 151px; */
+    padding-top: 623px;
     position: absolute;
-    height: 208px;
-    left: 151px;
-    top: 646px;
+    z-index: 2;
+
 }
+.box{
+    width: 208px;
+    height: 211px;
+    background-color: rgb(43, 40, 35);
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+}
+.starimages{
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: 80%;
+    margin-left: -1%
+}
+.zeros{
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: 84%;
+    color: white;
+    font-size: 28px;
+    margin-left: 6.1%;
+}
+.labels{
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: 88%;
+    color: white;
+    font-size: 28px;
+    margin-left: 5%;
+    font-weight: 100;
+}
+
+@media screen and (max-width:1200px) {
+    .box{
+        width: 40%;
+    }
+    #starnew1{
+        top: 61%;
+        left:24.5%
+    }
+    #starnew2{
+        top: 61%;
+        right: 23.5%;
+    }
+    #starnew3{
+        top: 83%;
+        left: 24.5%;
+    }
+    #starnew4{
+        top: 83%;
+        right: 23.5%;
+    }
+    #zero1{
+        top: 64%;
+        left: 17.5%;
+    }
+    #zero2{
+        top: 64%;
+        right:23.5%;
+    }
+    #zero3{
+        top: 86%;
+        left:17.5%;
+    }
+    #zero4{
+        top: 86%;
+        right:23.5%;
+    }
+    #label1{
+        top: 67%;
+        left: 17%;
+    }
+    #label2{
+        top: 67%;
+        right: 25%;
+    }
+    #label3{
+        top: 89%;
+        left: 17%;
+    }
+    #label4{
+        top: 89%;
+        right: 25%;
+    }
+}
+@media screen and (max-width:600px) {
+    .box{
+        width: 90%;
+    }
+}
+
+
+
+
 #img1,#img2,#img3,img4{
     width: 208px;
     height: 208px;
