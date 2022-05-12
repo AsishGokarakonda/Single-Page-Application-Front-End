@@ -6,7 +6,6 @@ const Navbar = () => {
         height: "56px",
         left: "-6px",
         top: "-2px",
-        border:"2px solid green",
         zIndex:"1"
          }}>
                 <img className="brand-title" src="homejam.png" alt="" />
