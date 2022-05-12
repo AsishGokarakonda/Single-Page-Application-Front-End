@@ -1,0 +1,38 @@
+#upcomingshows{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 23px;
+}
+#viewall{
+    font-family: 'Nunito', sans-serif;
+}
+
+.card img{
+    margin-left: -1px;
+    margin-right: 59px;
+    width: 100.7%;
+    margin-top: -1px;
+}
+.card{
+    border-radius: 8px;
+}
+.list-group-item ,.card-body,.card{
+    background-color:#111229;
+}
+
+.personName{
+    font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+color: white;
+}
+.card{
+    box-shadow: 10px 0px 0px 10px  pink;
+}
+
+@media screen and (max-width:1200px) {
+    #wholecontainer{
+        margin-top: 243px;
+    }
+}

@@ -14,6 +14,7 @@
     padding-top: 623px;
     position: absolute;
     z-index: 2;
+    
 }
 
 .box {
@@ -84,10 +85,22 @@
         background-position: center;
         background-repeat: no-repeat;
     }
+    .herocontainer{
+        background-image: linear-gradient(#0A0B1A, #0A0B1A 100%);
+background-size: 100% 288px;
+background-repeat: no-repeat;
+background-position: center bottom;
+    }
 }
 
 @media screen and (max-width:600px) {
     .box {
         width: 90%;
+    }
+    .herocontainer{
+        background-image: linear-gradient(#0A0B1A, #0A0B1A 100%);
+background-size: 100% 831px;
+background-repeat: no-repeat;
+background-position: center bottom;
     }
 }

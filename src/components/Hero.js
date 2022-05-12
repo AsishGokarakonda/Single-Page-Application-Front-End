@@ -2,7 +2,7 @@ import React from 'react'
 import './Herocss.css'
 const Hero = () => {
   return (
-    <div className="container">
+    <div className="container1">
       <div className="herocontainer">
         <div className="box">
           <img className='starimages' src="heart.png" style={{filter:"brightness(1)" }} alt="" />
