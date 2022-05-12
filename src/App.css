@@ -38,11 +38,10 @@
 }
 
 #hero{
-  /* border: 10px solid red; */
   width: 60%;
 }
 
-.carifont{
+.bigsize-Title{
   position:absolute;
   font-family: 'Libre Baskerville', serif;
   font-size: 80px;
@@ -51,7 +50,8 @@
   top: 236px;
   z-index: 3;
 }
-.innercari{
+
+.title-description{
   position: absolute;
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
@@ -59,28 +59,26 @@
   left: 172px;
   top: 358px;
   width: 41%;
-  border: 2px solid red;
 }
 
-
 @media screen and (max-width:1200px) {
-  .carifont {
+  .bigsize-Title {
       font-size: 40px;
       top: 364px;
   }
-  .innercari{
+  .title-description{
     top: 413px;
     font-size: 16px;
     width: 50%;
   }
 }
 @media screen and (max-width:600px) {
-  .carifont {
+  .bigsize-Title {
       font-size: 40px;
       top: 364px;
       left: 16px;
   }
-  .innercari{
+  .title-description{
     top: 413px;
     font-size: 16px;
     left: 16px;

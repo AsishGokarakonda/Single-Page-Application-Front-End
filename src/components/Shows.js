@@ -1,12 +1,9 @@
 import React from 'react'
 import BadgeMaker from './BadgeMaker'
-import './ShowsCSS.css'
-const Show = () => {
+const Shows = () => {
   return (
-    <>
-      <div style={{ backgroundColor: "#0A0B1A", color: "white" }}>
-        <div className="container" id='wholecontainer' style={{ height: "900px", border: "2px solid red", paddingTop: "65px" }}>
-          <header>
+      <>
+                <header>
             <div className="d-flex justify-content-between">
               <div id='upcomingshows'><p style={{ display: "inline", borderBottom: "3px solid #0259EB", paddingBottom: "2px" }}>Up</p>coming shows</div>
               <div id='viewall' style={{ color: "#E5C558", }}>View all</div>
@@ -15,10 +12,8 @@ const Show = () => {
 
 
 
-
-          <div className="container overflow-hidden" style={{ marginTop: "40px" }}>
-            <div className="row">
-
+          <div className="container overflow-hidden" >
+            <div className="row" style={{paddingTop:"20px"}}>
               <div className="col md-3">
                 <div className="card" style={{ width: "18rem"}}>
                   <img src="img1.png" className="card-img-top" alt="..." />
@@ -30,8 +25,10 @@ const Show = () => {
                         </div></li>
                   </ul>
                   <div className="card-body">
-                  <a href="/" className="card-link">More Info</a>
-                    <a href="/" className="card-link">Another link</a>
+                  <a href="/" className="card-link" style={{textDecoration:"none"}}>More Info &rarr;</a>
+                    <a href="/" className="card-link">
+                        <img onmouseover="this.style.visibility = 'hidden';" className='ticketicon' src="pinkicon.png" alt="" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -49,8 +46,8 @@ const Show = () => {
                    
                   </ul>
                   <div className="card-body">
-                    <a href="/" className="card-link">More Info</a>
-                    <a href="/" className="card-link">Another link</a>
+                    <a href="/" className="card-link" style={{textDecoration:"none"}}>More Info &rarr;</a>
+                    <a href="/" className="card-link"><img className='ticketicon' src="pinkicon.png" alt="" /></a>
                   </div>
                 </div>
               </div>
@@ -69,8 +66,8 @@ const Show = () => {
                    
                   </ul>
                   <div className="card-body">
-                  <a href="/" className="card-link">More Info</a>
-                    <a href="/" className="card-link">Another link</a>
+                  <a href="/" className="card-link" style={{textDecoration:"none"}}>More Info &rarr;</a>
+                    <a href="/" className="card-link"><img className='ticketicon' src="pinkicon.png" alt="" /></a>
                   </div>
 
                 </div>
@@ -89,19 +86,16 @@ const Show = () => {
                    
                   </ul>
                   <div className="card-body">
-                  <a href="/" className="card-link" style={{textDecoration:"none"}}>More Info</a>
-                    <a href="/" className="card-link">Another link</a>
+                  <a href="/" className="card-link" style={{textDecoration:"none"}}>More Info &rarr;</a>
+                    <a href="/" className="card-link"><img className='ticketicon' src="pinkicon.png" alt="" /></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-        </div>
-      </div>
-    </>
-
+      
+      </>
   )
 }
 
-export default Show
+export default Shows

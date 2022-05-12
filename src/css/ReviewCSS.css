@@ -1,0 +1,67 @@
+#reviews-header-right {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#reviews {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+#reviews-arrows {
+    font-size: 20px;
+    padding: 13px 28px;
+}
+
+.reviewImages {
+    height: 48px;
+    width: 48px;
+    margin-top: 8px;
+}
+
+.reviewer-details {
+    color: white;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: 'Quattrocento', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.flagimages {
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.reviewer-country {
+    margin-top: -3px;
+    font-family: 'Rubik', sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #E5C558;
+}
+
+.reviewer-country span{
+    padding-left: 6px;
+}
+
+.review-description{
+    color: white;
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}

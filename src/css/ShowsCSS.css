@@ -8,12 +8,13 @@
 
 .card img{
     margin-left: -1px;
-    margin-right: 59px;
+    /* margin-right: 59px; */
     width: 100.7%;
     margin-top: -1px;
 }
 .card{
     border-radius: 8px;
+    margin: auto;
 }
 .list-group-item ,.card-body,.card{
     background-color:#111229;
@@ -28,11 +29,29 @@ line-height: 32px;
 color: white;
 }
 .card{
-    box-shadow: 10px 0px 0px 10px  pink;
+    box-shadow: 8px -8px  #292971;
+    margin-top: 55px;
 }
+
+.ticketicon{
+    height: 35px;
+    width: 40px !important;
+    margin-left: 110px !important;
+}
+
+#hoverpink :hover{
+    display: none;
+
+}
+
 
 @media screen and (max-width:1200px) {
     #wholecontainer{
         margin-top: 243px;
+    }
+}
+@media screen and (max-width:600px) {
+    #wholecontainer{
+        margin-top: 829px;
     }
 }
