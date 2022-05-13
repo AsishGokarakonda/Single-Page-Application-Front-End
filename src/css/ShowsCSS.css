@@ -2,32 +2,37 @@
     font-family: 'Libre Baskerville', serif;
     font-size: 23px;
 }
+
 #viewall{
     font-family: 'Nunito', sans-serif;
+    color: #E5C558;
+    text-decoration: none;
 }
 
 .card img{
     margin-left: -1px;
-    /* margin-right: 59px; */
     width: 100.7%;
     margin-top: -1px;
 }
+
 .card{
     border-radius: 8px;
     margin: auto;
 }
+
 .list-group-item ,.card-body,.card{
     background-color:#111229;
 }
 
 .personName{
     font-family: 'Libre Baskerville';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 32px;
-color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
 }
+
 .card{
     box-shadow: 8px -8px  #292971;
     margin-top: 55px;
@@ -38,12 +43,6 @@ color: white;
     width: 40px !important;
     margin-left: 110px !important;
 }
-
-#hoverpink :hover{
-    display: none;
-
-}
-
 
 @media screen and (max-width:1200px) {
     #wholecontainer{

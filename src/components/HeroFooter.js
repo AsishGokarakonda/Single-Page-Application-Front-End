@@ -2,6 +2,7 @@ import React from 'react'
 import EachCircle from './EachCircle'
 import '../css/HeroCSS.css'
 
+// This component displays all the circles in a row. 
 const Hero = () => {
   return (
     <div className="circleElements">
@@ -12,6 +13,7 @@ const Hero = () => {
           <div className='zeros' >0</div>
           <div className='labels'>Label</div>
         </div>
+        {/* This EachCircle component displays the circle and contents in it. */}
         <EachCircle/>
         <EachCircle/>
         <EachCircle/>

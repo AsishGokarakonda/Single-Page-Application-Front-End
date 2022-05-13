@@ -1,5 +1,8 @@
 import React from 'react'
 
+// This file makes the badge (folk,bollywood) present on the review card 
+// props.name should contain the name which we want to display on the badge 
+
 const BadgeMaker = (props) => {
   return (
     <div style={{backgroundColor:" rgb(229, 197, 88)",
