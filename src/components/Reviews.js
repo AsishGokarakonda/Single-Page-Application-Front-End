@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/ReviewCSS.css'
-import ReviewCard from './ReviewCard'
 
 // this is the reviews component.This will displays the reviews given by people in a row of cards
 const Reviews = () => {
@@ -27,13 +26,87 @@ const Reviews = () => {
             </header>
 
             <div className="container overflow-hidden" >
-                <div className="row" style={{ paddingTop: "20px" }}>
-                    
-                    {/* these review cards will display reviews in cards  */}
+                <div className="row" id='review-row' style={{ paddingTop: "20px" }}>
 
-                    <ReviewCard name="Hellen Jummy" city=" PALO ALTO, CA" flag="flag1.png" message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing." />
-                    <ReviewCard name="Isaac Oluwatemilorun" city=" PALO ALTO, CA" flag="flag2.png" message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing." />
-                    <ReviewCard name="Hellen Jummy" city=" PALO ALTO, CA" flag="flag1.png" message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing." />
+                    {/* these cards will display reviews in cards  */}
+
+                    <div className="col md-4">
+                        <div className="card" style={{ width: "23rem", boxShadow: "8px -8px  #3A7DA8" }}>
+                            <ul className="list-group list-group-flush" >
+                                <li className="list-group-item" style={{ backgroundColor: "#111229", color: "white" }}>
+                                    <div class="d-flex flex-row bd-highlight mb-3">
+                                        <div class="p-2 bd-highlight"><img className='reviewImages' src="review1.png" alt="" /></div>
+                                        <div class="reviewer-details">
+                                            <div class="d-flex flex-column bd-highlight">
+                                                <div class="bd-highlight">Hellen Jummy</div>
+                                                <div class="reviewer-country">
+                                                    <img className='flagimages' src="flag1.png" alt="" />
+                                                    <span> PALO ALTO, CA</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="list-group-item" style={{ backgroundColor: "#111229" }}>
+                                    <div className='review-description'>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="col md-4">
+                        <div className="card" style={{ width: "23rem", boxShadow: "8px -8px  #3A7DA8" }}>
+                            <ul className="list-group list-group-flush" >
+                                <li className="list-group-item" style={{ backgroundColor: "#111229", color: "white" }}>
+                                    <div class="d-flex flex-row bd-highlight mb-3">
+                                        <div class="p-2 bd-highlight"><img className='reviewImages' src="review1.png" alt="" /></div>
+                                        <div class="reviewer-details">
+                                            <div class="d-flex flex-column bd-highlight">
+                                                <div class="bd-highlight">Isaac Oluwatemilorun</div>
+                                                <div class="reviewer-country">
+                                                    <img className='flagimages' src="flag2.png" alt="" />
+                                                    <span> PALO ALTO, CA</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="list-group-item" style={{ backgroundColor: "#111229" }}>
+                                    <div className='review-description'>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="col md-4">
+                        <div className="card" style={{ width: "23rem", boxShadow: "8px -8px  #3A7DA8" }}>
+                            <ul className="list-group list-group-flush" >
+                                <li className="list-group-item" style={{ backgroundColor: "#111229", color: "white" }}>
+                                    <div class="d-flex flex-row bd-highlight mb-3">
+                                        <div class="p-2 bd-highlight"><img className='reviewImages' src="review1.png" alt="" /></div>
+                                        <div class="reviewer-details">
+                                            <div class="d-flex flex-column bd-highlight">
+                                                <div class="bd-highlight">Hellen Jummy</div>
+                                                <div class="reviewer-country">
+                                                    <img className='flagimages' src="flag1.png" alt="" />
+                                                    <span> PALO ALTO, CA</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="list-group-item" style={{ backgroundColor: "#111229" }}>
+                                    <div className='review-description'>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
                 </div>
             </div>
